@@ -1,5 +1,7 @@
 require 'formula'
 
+# https://gist.github.com/summerwind/6295114
+
 class Nghttp2 < Formula
   homepage 'http://nghttp2.org'
 
