@@ -40,7 +40,7 @@ class Curl < Formula
   depends_on "c-ares" => :optional
   depends_on "libmetalink" => :optional
   depends_on "libressl" => :optional
-  depends_on "nghttp2"
+  depends_on "masakielastic/http2/nghttp2"
 
   def install
     # Throw an error if someone actually tries to rock both SSL choices.
